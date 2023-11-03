@@ -1,0 +1,44 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(95, 57, 7);
+    background-color: bisque;
+}
+img{
+    height: 300px;
+}
+.accordion-panel{
+    display: none;
+}
+table{
+    margin: 30px;
+    text-align: center;
+    width: 600px;
+}
+ul{
+    list-style-type: none;
+    margin: auto;
+    width: 700px;
+}
+ul>li{
+    margin-top: 2px;
+}
+.tab-panel{
+    display: none;
+    height: fit-content;
+    background-color: bisque;
+    margin: 0px auto;
+    padding: 30px;
+    width: 600px;
+    color: rgba(98, 25, 25, 0.248);
+}
+.tab-panel.active{
+    display: block;
+    background-color: rgb(150, 150, 183);
+    color: black;
+}
+
+.tab-list>li.active {
+    background-color: rgb(169, 168, 170);
+}
