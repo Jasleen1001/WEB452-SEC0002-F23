@@ -1,0 +1,36 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(12, 12, 12);
+    background-color: #f4f5f7;
+}
+
+#character-table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+#character- table thead {
+    background-color: #c3a2a2;
+}
+
+#character-table th, #character-table td {
+    padding: 7px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#character-table tr:nth-child(even) {
+    background-color: #c3a2a2; 
+}
+
+#character-table th {
+    background-color: #88cccd;
+    color: white;
+}
+.highlight{
+    background-color: rgb(194, 228, 194);
+}
